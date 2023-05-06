@@ -1,0 +1,39 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn-horizons {
+  background-color: #ec7c14;
+}
+
+.nav-link-active-bh {
+  color: #ff830f;
+  font-weight: bold;
+}
+
+.nav-link-inactive-bh {
+  color: #444;
+}
+
+.nav-item-bh {
+  padding: 7px 0px;
+}
+
+.mr-2{
+  margin-right: 8px;
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}

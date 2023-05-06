@@ -1,0 +1,75 @@
+.orange-background {
+  background-color: #ffa500;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+}
+
+.card-title {
+  font-size: 2.5rem;
+}
+
+.form-label {
+  font-size: 1.2rem;
+}
+
+.form-control {
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  border-radius: 0.5rem;
+}
+
+.btn-lg {
+  font-size: 1.2rem;
+}
+
+.card-footer {
+  background-color: #f2f2f2;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 2rem;
+  }
+}
+
+.btn-outline-horizons {
+  border-color: #ec7c14;
+  color: #ec7c14;
+}
+.form-control-bh {
+  border-color: #ec7c14;
+  border: 1px solid #ec7c14;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #ec7c14;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ec7c14);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ec7c14);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}

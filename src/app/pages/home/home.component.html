@@ -1,0 +1,169 @@
+<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+  <div class="sidebar-sticky">
+    <ul class="nav flex-column">
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link active nav-link-active-bh" href="#">
+          <span data-feather="home"></span>
+          Inicio <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link nav-link-inactive-bh" href="#">
+          <span data-feather="file"></span>
+          Datos Personales
+        </a>
+      </li>
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link nav-link-inactive-bh" href="#">
+          <span data-feather="shopping-cart"></span>
+          Vendedores
+        </a>
+      </li>
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link nav-link-inactive-bh" href="#">
+          <span data-feather="shopping-cart"></span>
+          Mi Doctor
+        </a>
+      </li>
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link nav-link-inactive-bh" href="#">
+          <span data-feather="shopping-cart"></span>
+          Productos
+        </a>
+      </li>
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link nav-link-inactive-bh" href="#">
+          <span data-feather="shopping-cart"></span>
+          Solicitudes
+        </a>
+      </li>
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link nav-link-inactive-bh" href="#">
+          <span data-feather="shopping-cart"></span>
+          Guias
+        </a>
+      </li>
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link nav-link-inactive-bh" href="#">
+          <span data-feather="shopping-cart"></span>
+          Pagos
+        </a>
+      </li>
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link nav-link-inactive-bh" href="#">
+          <span data-feather="shopping-cart"></span>
+          Reportes
+        </a>
+      </li>
+      <li class="nav-item nav-item-bh">
+        <a class="nav-link nav-link-inactive-bh" href="#">
+          <span data-feather="shopping-cart"></span>
+          Mesajería
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main role="main" class="col-md-10 ml-sm-auto pt-3 px-4" style="float: right">
+  <div style="height: 50px"></div>
+
+  <div class="row" style="justify-content: space-between">
+    <div class="col-4">
+      <h3>Módulo Vendedores</h3>
+    </div>
+    <div class="col-3" style="text-align: right">
+      <button type="button" class="btn btn-primary btn-horizons">
+        + Agregar Nuevo
+      </button>
+    </div>
+  </div>
+
+  <div style="height: 25px"></div>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nombres</th>
+        <th scope="col">Apellidos</th>
+        <th scope="col">Teléfono</th>
+        <th scope="col">Tipo Registro</th>
+        <th scope="col">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Carmen</td>
+        <td>Avalos Saenz</td>
+        <td>944349337</td>
+        <td>Manual</td>
+        <td>
+          <i class="fas fa-eye mr-2" (click)="detalleModal()"></i>
+          <i class="far fa-pen-to-square mr-2"></i>
+          <i class="fas fa-trash-can"></i>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Carmen</td>
+        <td>Avalos Saenz</td>
+        <td>944349337</td>
+        <td>Manual</td>
+        <td>
+            <i class="fas fa-eye mr-2" (click)="detalleModal()"></i>
+            <i class="far fa-pen-to-square mr-2"></i>
+            <i class="fas fa-trash-can"></i>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Carmen</td>
+        <td>Avalos Saenz</td>
+        <td>944349337</td>
+        <td>Manual</td>
+        <td>
+            <i class="fas fa-eye mr-2" (click)="detalleModal()"></i>
+            <i class="far fa-pen-to-square mr-2"></i>
+            <i class="fas fa-trash-can"></i>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Carmen</td>
+        <td>Avalos Saenz</td>
+        <td>944349337</td>
+        <td>Manual</td>
+        <td>
+            <i class="fas fa-eye mr-2" (click)="detalleModal()"></i>
+            <i class="far fa-pen-to-square mr-2"></i>
+            <i class="fas fa-trash-can"></i>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Carmen</td>
+        <td>Avalos Saenz</td>
+        <td>944349337</td>
+        <td>Manual</td>
+        <td>
+            <i class="fas fa-eye mr-2" (click)="detalleModal()"></i>
+            <i class="far fa-pen-to-square mr-2"></i>
+            <i class="fas fa-trash-can"></i>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>Carmen</td>
+        <td>Avalos Saenz</td>
+        <td>944349337</td>
+        <td>Manual</td>
+        <td>
+            <i class="fas fa-eye mr-2" (click)="detalleModal()"></i>
+            <i class="far fa-pen-to-square mr-2"></i>
+            <i class="fas fa-trash-can"></i>
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</main>
